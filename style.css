@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  
+}
+
+.navbar {
+  font-style: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  gap: 100px;
+}
+
+.navbar-left {
+  flex-grow: 1;
+  gap: 10px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+}
+
+.menu {
+  margin-right: 20px;
+}
+
+.menu {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+ 
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+}
+
+
+
+.header {
+  text-align: left;
+  margin: 100px 60px;
+}
+
+.header h1 {
+font-size: xx-large;
+}
+
+.header p {
+  font-size: medium;
+  margin: 20px 0;
+}
+
+
+.header .button {
+  display: inline-block;
+  padding: 5px 20px;
+  color: black;
+  background-color: rgb(238, 238, 37);
+  font-weight: bold;
+  border-radius: 14px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 60px;
+}
+
+.section {
+  font-size: 20px;
+  margin: 0px 30px;
+}
+
+.section h2 {
+  font-size: 40px;
+}
+
+.section p {
+  margin: 0;
+  padding: 0;
+}
+
+
+.domains {
+  
+  text-align: center;
+  margin: 50px;
+}
+
+.cards {
+  display: inline-grid;
+  justify-items: start;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cards h2 {
+  margin: 15px 0;
+}
+
+.cards p {
+  text-align: left;
+  font-size: 14px;
+  margin: 20px 10px;
+}
+
+.cards button {
+  background-color: #ffdd57;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
