@@ -52,6 +52,7 @@ body {
 
 .header {
   text-align: left;
+  flex-basis: 20px;
   margin: 100px 60px;
 }
 
@@ -60,6 +61,7 @@ font-size: xx-large;
 }
 
 .header p {
+  flex-basis: 100%;
   font-size: medium;
   margin: 20px 0;
 }
@@ -130,4 +132,138 @@ font-size: xx-large;
   border-radius: 12px;
   cursor: pointer;
   font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.services {
+  background-color: #000;
+  padding: 20px;
+  text-align: left;
+  margin: 10px 80px;
+}
+
+.services h2 {
+  margin-bottom: 15px;
+}
+
+.services p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.services ul {
+  list-style: disc;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.services ul li {
+  margin-bottom: 10px;
+}
+
+.partners {
+  background-color: white;
+  padding: 40px 20px;
+  text-align: center;
+  color: black;
+}
+
+.partners h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.partners .logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.partners .logos div {
+  width: 150px;
+  height: 100px;
+  border: 1px solid #3b3b3b;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #0e0d0d;
+}
+
+
+
+.subscribe {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.subscribe h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.subscribe input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  max-width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscribe button:hover {
+  background-color: #e0a800;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  margin: auto 190px;
+}
+
+.footer div {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer p, .footer a {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.hr {
+  margin-bottom: 190px;
+  padding: 100px auto;
 }
